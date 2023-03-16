@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Dziala");
+            Console.Writeline("pull");
         }
     }
 }
