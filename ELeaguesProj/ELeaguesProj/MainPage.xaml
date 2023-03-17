@@ -4,21 +4,30 @@
              x:Class="ELeaguesProj.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="DarkBlue" Padding="30" CornerRadius="0">
+            <Label Text="Witaj w ELeagues!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <!-- <Frame BackgroundColor="DarkCyan" Margin="0"> -->
+        
+            <!-- Tu będą podane ogłoszenia: po zalogowaniu na konto zwykłego użytkownika ogłoszenia o aktulanych i nadchodzących turniejach;
+                po zalogowaniu na konto zawodnika informacje na jakie jest zapisane turnieje
+                po zalogowaniu na konto admina (wstepnie admin, bo nie wiem jak inaczej go nazwac) panel do manipulowania zawodnikami m.in. do zapisywania ich na turnieje -->
+        <!-- </Frame> -->
+
+        <Button Text="Zaloguj" CornerRadius="10" Margin="5" BackgroundColor="DarkGreen"  TextColor="white" FontSize="20" Padding="2" Clicked="LogIn"></Button>
+        <Button Text="Zarejestruj" CornerRadius="10" BackgroundColor="DarkGreen" TextColor="white" Margin="5" FontSize="20" Padding="2" Clicked="LogOn"></Button>
+        <!-- <Label Text="Sveloping now" FontSize="Title" Padding="30,10,30,10"/> -->
+        <!-- <Label Text=" changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/> -->
+        <!-- <Label FontSize="16" Padding="30,24,30,0"> -->
+        <!--     <Label.FormattedText> -->
+        <!--         <FormattedString> -->
+        <!--            <FormattedString.Spans> -->
+        <!--                 <Span Text="Learn more at "/> -->
+        <!--                <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/> -->
+        <!--            </FormattedString.Spans> -->
+        <!--        </FormattedString> -->
+        <!--    </Label.FormattedText> -->
+        <!-- </Label> -->
     </StackLayout>
 
 </ContentPage>

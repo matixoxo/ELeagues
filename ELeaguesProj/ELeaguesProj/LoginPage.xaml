@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ELeaguesProj.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkBlue" Padding="30" CornerRadius="0">
+            <Label Text="Logowanie" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <InputView></InputView>
+        
+    </StackLayout>
+
+</ContentPage>

@@ -14,5 +14,15 @@ namespace ELeaguesProj
         {
             InitializeComponent();
         }
+
+        void LogIn(Object sender, EventArgs e)
+        {
+            
+        }
+
+        void LogOn(Object sender, EventArgs e)
+        {
+
+        }
     }
 }
