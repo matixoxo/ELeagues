@@ -1,22 +1,20 @@
-ï»¿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ELeaguesProj.MainPage">
+             x:Class="ELeaguesProj.LoginPage">
 
     <StackLayout>
         <Frame BackgroundColor="DarkBlue" Padding="30" CornerRadius="0">
-            <Label Text="Witaj w ELeagues!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Logowanie" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <!-- <Frame BackgroundColor="DarkCyan" Margin="0"> -->
 
-        <!-- Tu bÄ™dÄ… podane ogÅ‚oszenia: po zalogowaniu na konto zwykÅ‚ego uÅ¼ytkownika ogÅ‚oszenia o aktulanych i nadchodzÄ…cych turniejach;
+        <!-- Tu bêd¹ podane og³oszenia: po zalogowaniu na konto zwyk³ego u¿ytkownika og³oszenia o aktulanych i nadchodz¹cych turniejach;
                 po zalogowaniu na konto zawodnika informacje na jakie jest zapisane turnieje
                 po zalogowaniu na konto admina (wstepnie admin, bo nie wiem jak inaczej go nazwac) panel do manipulowania zawodnikami m.in. do zapisywania ich na turnieje -->
         <!-- </Frame> -->
 
-        <Button Text="Zaloguj" CornerRadius="10" Margin="5" BackgroundColor="DarkGreen"  TextColor="white" FontSize="20" Padding="2" Clicked="LogIn"></Button>
-        <Button Text="Zarejestruj" CornerRadius="10" BackgroundColor="DarkGreen" TextColor="white" Margin="5" FontSize="20" Padding="2" Clicked="LogOn"></Button>
-        <!-- <Label Text="Sveloping now" FontSize="Title" Padding="30,10,30,10"/> -->
+        
         <!-- <Label Text=" changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/> -->
         <!-- <Label FontSize="16" Padding="30,24,30,0"> -->
         <!--     <Label.FormattedText> -->

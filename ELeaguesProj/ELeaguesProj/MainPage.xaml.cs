@@ -14,5 +14,15 @@ namespace ELeaguesProj
         {
             InitializeComponent();
         }
+
+        private async void LogIn(object sender, EventArgs e)
+        {
+             await Navigation.PushAsync(new LoginPage());
+        }
+
+        private async void LogOn(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LogonPage());
+        }
     }
 }

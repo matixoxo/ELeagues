@@ -7,7 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELeaguesProj.Android", "ELe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELeaguesProj.iOS", "ELeaguesProj\ELeaguesProj.iOS\ELeaguesProj.iOS.csproj", "{A057D032-50EE-4776-90FD-AF093BF4305D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELeaguesProj", "ELeaguesProj\ELeaguesProj\ELeaguesProj.csproj", "{AC4614CA-C2B9-4AC8-974A-9A3E1F686122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ELeaguesProj", "ELeaguesProj\ELeaguesProj\ELeaguesProj.csproj", "{AC4614CA-C2B9-4AC8-974A-9A3E1F686122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{D7EA5DCC-3567-4DC0-8152-B23BA944D772}"
+	ProjectSection(SolutionItems) = preProject
+		LoginPage.xaml = LoginPage.xaml
+		LoginPage.xaml.cs = LoginPage.xaml.cs
+		LogonPage.xaml = LogonPage.xaml
+		LogonPage.xaml.cs = LogonPage.xaml.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
