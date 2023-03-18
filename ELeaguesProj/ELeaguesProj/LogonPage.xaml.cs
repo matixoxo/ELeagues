@@ -6,7 +6,7 @@ namespace ELeaguesProj
     public partial class LogonPage : ContentPage
     {
         public LogonPage()
-        {
+    {
             InitializeComponent();
         }
 
