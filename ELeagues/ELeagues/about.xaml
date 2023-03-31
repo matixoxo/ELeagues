@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ELeagues.AboutUs">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Trochę informacji o projekcie"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="ELeagues to aplikacja, która została stworzona z myślą o graczach, którzy biorą czynny udział w różnych turniejach e-sportowych.
+                   Aplikacja ma za zadanie ułatwić zorganizowanie i przebieg danego turnieju.
+                   "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ELeagues.LoginPage">
 
     <StackLayout>
         <Frame BackgroundColor="DarkBlue" Padding="30" CornerRadius="0">
             <Label Text="Logowanie" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <!-- <Frame BackgroundColor="DarkCyan" Margin="0"> -->
-
-        
-        
+        <Label HorizontalTextAlignment="Center" FontSize="28" Text="Nick: "></Label>
+        <Entry x:Name="NickName" Margin="10" ></Entry>
+        <Label HorizontalTextAlignment="Center" FontSize="28" Text="Hasło: "></Label>
+        <Entry x:Name="Password" Margin="10" IsPassword="True"></Entry>
+        <Button Text="Zaloguj"  CornerRadius="10" Margin="20" BackgroundColor="DarkBlue"  TextColor="white" FontSize="20" Padding="2" Clicked="Save"></Button>
+        <Label x:Name="GrossOutput"></Label>
         <!-- <Label Text=" changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/> -->
         <!-- <Label FontSize="16" Padding="30,24,30,0"> -->
         <!--     <Label.FormattedText> -->

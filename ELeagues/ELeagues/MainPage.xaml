@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ELeagues.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Witaj w ELeagues!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Rejestracja" CornerRadius="10" BackgroundColor="DarkGreen" TextColor="white" Margin="2" FontSize="20" Padding="2" Clicked="LogOn"></Button>
+        <Button Text="Logowanie" CornerRadius="10" Margin="2" BackgroundColor="DarkGreen"  TextColor="white" FontSize="20" Padding="2" Clicked="LogIn"></Button>
+        
+        <Button Text="O nas"  CornerRadius="10" Margin="20" BackgroundColor="DarkBlue"  TextColor="white" FontSize="20" Padding="2" Clicked="About"></Button>
+    </StackLayout>
+
+
+
+</ContentPage>
